@@ -1,0 +1,18 @@
+{
+  "name": "message-book",
+  "version": "1.0.0",
+  "description": "node,mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fibers": "^1.0.15",
+    "formidable": "^1.1.1",
+    "mongodb": "^2.2.25"
+  }
+}
